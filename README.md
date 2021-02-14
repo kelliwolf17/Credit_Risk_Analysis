@@ -21,13 +21,13 @@ The purpose of this analysis is to evaluate credit card risk using 6 different m
   - balanced accuracy score = 0.5145088251527934
    - precision & recall score: 
    
-   ![clustercentroids](https://user-images.githubusercontent.com/71397190/107890424-b269b800-6ede-11eb-84bf-90051c158803.PNG)
+   ![clustercentroids](https://user-images.githubusercontent.com/71397190/107891232-d4fdd000-6ee2-11eb-9bc8-4f0568646733.PNG)
 
 - SMOTEENN (over- & undersample)
   - balanced accuracy score = 0.6375825406609699
   - precision & recall score:
   
-  ![smoteenn](https://user-images.githubusercontent.com/71397190/107890428-b3024e80-6ede-11eb-9261-58baacab7417.PNG)
+  ![smoteenn](https://user-images.githubusercontent.com/71397190/107891230-d3cca300-6ee2-11eb-9d32-72e0113db8f1.PNG)
 
 - BalancedRandomForestClassifier (ensemble)
   - balanced accuracy score = 0.7877672625306695
@@ -48,3 +48,6 @@ The EasyEnsembleClassifier model has the highest accuracy score, followed by the
 
 ### Recommendation
 EasyEnsembleClassifier
+
+
+
