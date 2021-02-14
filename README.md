@@ -5,16 +5,16 @@
 
 ## Results
 
--RandomOverSampler
+- RandomOverSampler
 
--SMOTE
+- SMOTE
 
--ClusterCentroids
+- ClusterCentroids
 
--SMOTEENN
+- SMOTEENN
 
--BalancedRandomForestClassifier
+- BalancedRandomForestClassifier
 
--EasyEnsembleClassifier
+- EasyEnsembleClassifier
 
 ## Summary
