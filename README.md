@@ -47,7 +47,7 @@ The balanced accuracy score is a metric used to evaluate how good a binary class
 The EasyEnsembleClassifier model has the highest accuracy score, followed by the BalancedRandomForestClassifier model, the oversampling models, then SMOTEENN and finally ClusterCentroids. The EasyEnsembleClassifier model also has the highest F1 score, with ClusterCentroids at the lowest again.
 
 ### Recommendation
-EasyEnsembleClassifier
+The EasyEnsembleClassifier model would be our recommendation for this particular dataset due to its high accuracy and F1 scores. 
 
 
 
