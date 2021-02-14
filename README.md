@@ -44,7 +44,7 @@ The purpose of this analysis is to evaluate credit card risk using 6 different m
 ## Summary
 The balanced accuracy score is a metric used to evaluate how good a binary classifier is. It is the average of sensitivity (true positive rate, or recall) and specificity (true negative rate). The closer to 1, the better a classifier. The F1 score, or harmonic mean, is a weighted average of precision and recall. The closer to 1, the better the score. Precision is the proportion of positive identifications that were actually correct. Recall is the proportion of positive identifications that were actually correct. 
 
-The EasyEnsembleClassifier model has the highest accuracy score, followed by the BalancedRandomForestClassifier model, the oversampling models,
+The EasyEnsembleClassifier model has the highest accuracy score, followed by the BalancedRandomForestClassifier model, the oversampling models, then SMOTEENN and finally ClusterCentroids. The EasyEnsembleClassifier model also has the highest F1 score, with ClusterCentroids at the lowest again.
 
 ### Recommendation
 EasyEnsembleClassifier
