@@ -18,13 +18,13 @@ The purpose of this analysis is to evaluate credit card risk using 6 different m
    ![smote](https://user-images.githubusercontent.com/71397190/107890427-b3024e80-6ede-11eb-8827-3559d53ec5c1.PNG)
 
 - ClusterCentroids (undersample)
-  - balanced accuracy score = 0.519685872100753
+  - balanced accuracy score = 0.5145088251527934
    - precision & recall score: 
    
    ![clustercentroids](https://user-images.githubusercontent.com/71397190/107890424-b269b800-6ede-11eb-84bf-90051c158803.PNG)
 
 - SMOTEENN (over- & undersample)
-  - balanced accuracy score = 0.519685872100753
+  - balanced accuracy score = 0.6375825406609699
   - precision & recall score:
   
   ![smoteenn](https://user-images.githubusercontent.com/71397190/107890428-b3024e80-6ede-11eb-9261-58baacab7417.PNG)
@@ -44,6 +44,7 @@ The purpose of this analysis is to evaluate credit card risk using 6 different m
 ## Summary
 The balanced accuracy score is a metric used to evaluate how good a binary classifier is. It is the average of sensitivity (true positive rate, or recall) and specificity (true negative rate). The closer to 1, the better a classifier. The F1 score, or harmonic mean, is a weighted average of precision and recall. The closer to 1, the better the score. Precision is the proportion of positive identifications that were actually correct. Recall is the proportion of positive identifications that were actually correct. 
 
+The EasyEnsembleClassifier model has the highest accuracy score, followed by the BalancedRandomForestClassifier model, the oversampling models,
 
 ### Recommendation
 EasyEnsembleClassifier
